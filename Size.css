@@ -1,9 +1,7 @@
-img{
+.LoadingImg{
     margin-top: 250px;
     margin-left: 250px;
-    
     width: 400px;
-
     animation: rotation 3s infinite;
 }
 
