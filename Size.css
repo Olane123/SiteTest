@@ -1,6 +1,13 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
 body{
     background-image: url("https://staticg.sportskeeda.com/editor/2024/10/011da-17282527742704-1920.jpg");
     background-size: cover auto;
+    animation: pageFadeIn 5s;
+    background-color: rgb(255, 255, 255);
 }
 
 .LoadingImg{
@@ -16,5 +23,14 @@ body{
     }
     to{
         transform: rotate(360deg);
+    }
+}
+
+@keyframes pageFadeIn {
+    from{
+        opacity: 0%;
+    }
+    to{
+         
     }
 }
