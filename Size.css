@@ -2,16 +2,10 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cs15.pikabu.ru/post_img/2024/10/16/10/og_og_1729099025243021268.jpg");
     background-repeat: no-repeat;
     background-size: cover auto;
-
+}
 *{
     margin: 0 auto;
     padding: 0 auto;
-}
-
-body{
-    background-image: url("https://staticg.sportskeeda.com/editor/2024/10/011da-17282527742704-1920.jpg");
-    background-size: cover auto;
-    animation: pageFadeIn 5s;
 }
 
 .LoadingImg{
