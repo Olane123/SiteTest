@@ -7,7 +7,6 @@ body{
     background-image: url("https://staticg.sportskeeda.com/editor/2024/10/011da-17282527742704-1920.jpg");
     background-size: cover auto;
     animation: pageFadeIn 5s;
-    background-color: rgb(255, 255, 255);
 }
 
 .LoadingImg{
