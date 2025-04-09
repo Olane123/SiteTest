@@ -3,14 +3,21 @@ body{
     background-repeat: no-repeat;
     background-size: cover auto;
 
+*{
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
-img{
+body{
+    background-image: url("https://staticg.sportskeeda.com/editor/2024/10/011da-17282527742704-1920.jpg");
+    background-size: cover auto;
+    animation: pageFadeIn 5s;
+}
+
+.LoadingImg{
     margin-top: 250px;
     margin-left: 250px;
-    
     width: 400px;
-
     animation: rotation 3s infinite;
 }
 
@@ -34,4 +41,12 @@ img{
     color: rgb(255, 255, 255);
     font-size: 40px ;
     opacity: 50%;
+
+@keyframes pageFadeIn {
+    from{
+        opacity: 0%;
+    }
+    to{
+         
+    }
 }
